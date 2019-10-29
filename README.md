@@ -1,12 +1,9 @@
-webpack-dev-server demo
+Webpack-dev-server Server Static Files Demo
 =======================
+
+让webpack-dev-server启动的时候可以将某个static目录的文件暴露出来供访问（比如一些json文件，或者html/js/css等）
 
 ```
 npm install
-webpack-dev-server --progress --colors
+npm run demo
 ```
-
-Then open <http://localhost:8080/webpack-dev-server/>.
-
-You will see the content of `index.html` wrapped with a message banner, and when any file is changed, webpack-dev-server will recompile it based on `webpack.config.js` and reload the browser automatically.
-
